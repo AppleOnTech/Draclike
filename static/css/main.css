@@ -29,7 +29,7 @@ body {
   }
   
   hr:before {
-    content: '';
+    content: ''';
     display: inline-block;
     width: 14px;
     height: 14px;
@@ -39,7 +39,7 @@ body {
   }
   
   hr:after {
-    content: '';
+    content: ''';
     display: inline-block;
     width: 14px;
     height: 14px;
