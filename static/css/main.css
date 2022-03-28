@@ -22,14 +22,14 @@ body {
    background-color: #282A36;
    -webkit-text-size-adjust: 100%; }
 
-   hr {
+   /* hr {
     margin: 1.5em 0;
     text-align: center;
     border: none;
   }
   
   hr:before {
-    content: ''';
+    content: '';
     display: inline-block;
     width: 14px;
     height: 14px;
@@ -39,14 +39,14 @@ body {
   }
   
   hr:after {
-    content: ''';
+    content: '';
     display: inline-block;
     width: 14px;
     height: 14px;
     border-radius: 50%;
     background: #FF79C6;
     margin: 0 0.4em;
-  }
+  } */
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { 
