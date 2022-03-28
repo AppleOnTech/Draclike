@@ -197,6 +197,18 @@ pre > code {
 
 .post-link { display: block; font-size: 24px; }
 
+hr {
+  margin: 12px 0;
+  border: 0;
+  text-align: center;
+  
+  &:before {
+    content: "\2022 \2022 \2022";
+    font-size: 50px;
+    color: #FF79C6;
+  }
+}
+
 /** Posts */
 .post-header { margin-bottom: 30px; }
 
