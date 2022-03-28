@@ -104,6 +104,18 @@ pre > code {
   padding-left: 0;
 }
 
+hr {
+  margin: 12px 0;
+  border: 0;
+  text-align: center;
+  
+  &:before {
+    content: "\2022 \2022 \2022";
+    font-size: 50px;
+    color: #FF79C6;
+  }
+}
+
 /** Wrapper */
 .wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
 @media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
@@ -197,17 +209,7 @@ pre > code {
 
 .post-link { display: block; font-size: 24px; }
 
-hr {
-  margin: 12px 0;
-  border: 0;
-  text-align: center;
-  
-  &:before {
-    content: "\2022 \2022 \2022";
-    font-size: 50px;
-    color: #FF79C6;
-  }
-}
+
 
 /** Posts */
 .post-header { margin-bottom: 30px; }
