@@ -21,7 +21,7 @@ body {
    background-color: #282A36;
    -webkit-text-size-adjust: 100%; }
 
-   hr {
+  hr {
     margin: 1.5em 0;
     text-align: center;
     border: none;
@@ -132,8 +132,8 @@ pre > code {
 
 
 /** Wrapper */
-.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
-@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
+.wrapper { max-width: -webkit-calc(1000px - (30px * 2)); max-width: calc(1000px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+@media screen and (max-width: 1000px) { .wrapper { max-width: -webkit-calc(1000px - (30px)); max-width: calc(1000px - (30px)); padding-right: 15px; padding-left: 15px; } }
 
 /** Clearfix */
 .wrapper:after, .footer-col-wrapper:after { content: ""; display: table; clear: both; }
@@ -243,11 +243,11 @@ h1 { font-size: 26px; margin-bottom: 0px; }
 
 .post-content { margin-bottom: 30px; }
 .post-content h2 { font-size: 24px; }
-@media screen and (max-width: 800px) { .post-content h2 { font-size: 24px; } }
+@media screen and (max-width: 1000px) { .post-content h2 { font-size: 24px; } }
 .post-content h3 { font-size: 22px; }
-@media screen and (max-width: 800px) { .post-content h3 { font-size: 22px; } }
+@media screen and (max-width: 1000px) { .post-content h3 { font-size: 22px; } }
 .post-content h4 { font-size: 20px; }
-@media screen and (max-width: 800px) { .post-content h4 { font-size: 20px; } }
+@media screen and (max-width: 1000px) { .post-content h4 { font-size: 20px; } }
 
 #post-nav { padding-top: 25px; }
 
