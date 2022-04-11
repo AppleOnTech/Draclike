@@ -2,8 +2,7 @@
   <div class="wrapper">
     <a class="site-title" href="/" text-align: center>{{ .Site.Title }}</a>
     <!-- Trying to keep the title above the menus, will center eventually also.  -->
-  </div>
-  <div>
+
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -21,7 +20,7 @@
           />
         </svg>
       </a>
-
+    </br>
       <div class="trigger">
         {{ range .Site.Menus.main }} {{ if .Page.Params.redirect_url }}
         <a class="page-link" href="{{ .Page.Params.redirect_url }}"
