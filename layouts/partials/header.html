@@ -1,6 +1,6 @@
-<header class="site-header">
+<header class="site-header" text-align: center>
   <div class="wrapper">
-    <a class="site-title" href="/" text-align: center>{{ .Site.Title }}</a>
+    <a class="site-title" href="/">{{ .Site.Title }}</a>
     <!-- Trying to keep the title above the menus, will center eventually also.  -->
 
     <nav class="site-nav">
@@ -20,7 +20,7 @@
           />
         </svg>
       </a>
-    </br>
+
       <div class="trigger">
         {{ range .Site.Menus.main }} {{ if .Page.Params.redirect_url }}
         <a class="page-link" href="{{ .Page.Params.redirect_url }}"
